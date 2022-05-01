@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>OpenBootCamp. curso HTML y CSS. Ejercicio 2</title>
+</head>
+<body>
+    <form id="Formulario" method="post" style ="border: 2px #000 solid;margin: 30px;padding: 30px;background-color: #f2f2f2;">
+  
+    <h2><center>Formulario Ejercicio 2</center></h2>
+
+    <fieldset>
+            <div>
+                <br><br>  
+       Nombre:  <input id="nombre" name="nombre" pattern="[A-Za-z0-9]+" required type="text" placeholder="Indica tu nombre" />
+        <br><br><br>
+        Apellidos: <input id="apellido" name="apellido" pattern="[A-Za-z0-9]+" required type="text" placeholder="Indica tu apellido" />
+        <br><br><br>
+        Correo electrónico: <input id="email" name="email" required type="email" placeholder="Indica tu email" >
+
+
+        <br><br><br>
+        Número de teléfono:	<input id="telefono" name="telefono" required type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Indica tu teléfono">
+
+        <br><br><br>
+        Dirección: <textarea name="direccion" cols="80" rows="10" required> Indica tu dirección           
+          </textarea>
+        <p></p>
+        <div>
+            <input type="submit" value="Enviar formulario" />
+          </div>
+
+          <p></p>
+         </div>
+         <form>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+
+ <table border = "1">
+    
+    <caption>
+        Horario Semanal
+      </caption>
+       <!-- Celdas de cabecera -->
+        <tr>
+          <th>Lunes</th>         
+          <th>Martes</th>          
+          <th>Miércoles</th>
+          <th>Jueves</th>
+        </tr>
+        <!-- Primera fila -->
+        <tr>
+          <td>Turno 3</td>
+          <td colspan="2"> <center>Turno 2</center></td>
+          <td>Turno 4</td>
+        </tr>
+        <!-- Segunda fila -->
+        <tr>
+          <td rowspan="3"><center>Turno 2</center></td>
+          <td>Turno 3</td>
+          <td>Turno 4</td>
+          <td>Turno 1</td>
+        </tr>
+         <!-- Tercera fila -->
+         <tr>
+            
+            <td>Turno 4</td>
+            <td>Turno 2</td>
+            <td rowspan="2"><center>Turno 5</center></td>
+          </tr>
+           <!-- Segunda fila -->
+        <tr>
+            
+            <td>Turno 1</td>
+            <td>Turno 3</td>
+            
+          </tr>
+       
+      </table>
+
+
+
+</body>
+</html>

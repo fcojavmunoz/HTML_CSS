@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Sesión 1</title>
+</head>
+<body>
+    <header><h1>Ejercicio sesión 1 Curso HTML y CSS.</h1></header>
+<p>Aquí tenemos que poner un párrafo. El enunciado del ejercicio no menciona si tiene que ser largo o no, pero quisiera que ocupara algo máss de una línea, por lo que copio un fragmento del Quijote para alargarlo: <p></p>"<span><em>Ese cuerpo, señores, que con piadosos ojos estáis mirando, fue depositario de un alma en quien el cielo puso infinita parte de sus riquezas. Ese es el cuerpo de Grisóstomo, que fue único en el ingenio, solo en la cortesía, estremo en la gentileza, fénix en la amistad, magnífico sin tasa, grave sin presunción, alegre sin bajeza, y, finalmente, primero en todo lo que es ser bueno, y sin segundo en todo lo que fue ser desdichado. Quiso bien, fue aborrecido; adoró, fue desdeñado; rogó a una fiera, importunó a un mármol, corrió tras el viento, dio voces a la soledad, sirvió a la ingratitud, de quien alcanzó por premio ser despojos de la muerte en la mitad de la carrera de su vida.</em>"</span></p>
+<h2>Este es el primer encabezado.</h2>
+<p><em>"¡Oh, válame Dios y cuán grande que fue el enojo que recibió don Quijote oyendo las descompuestas palabras de su escudero! Digo que fue tanto, que con voz atropellada y tartamuda lengua, lanzando vivo fuego por los ojos, dijo:<p></p>
+    —¡Oh bellaco villano, malmirado, descompuesto, ignorante, infacundo, deslenguado, atrevido, murmurador y maldiciente! ¿Tales palabras has osado decir en mi presencia y en la destas ínclitas señoras, y tales deshonestidades y atrevimientos osaste poner en tu confusa imaginación? ¡Vete de mi presencia, monstruo de naturaleza, depositario de mentiras, almario de embustes, silo de bellaquerías, inventor de maldades, publicador de sandeces, enemigo del decoro que se debe a las reales personas! ¡Vete, no parezcas delante de mí, so pena de mi ira!"</em></p>
+<p>He copiado este texto de la web <a href="https://sergiouceda.com/don-quijote-de-la-mancha-primera-parte" target="_blank" rel="noopener">sergiouceda.com.</a></p>
+<h2>Este es el segundo encabezado.</h2>
+<p></p>
+En él vamos a crear dos contenedores y, en cada contenedor, un par de listas. A ver cómo sale.
+<p></p>
+
+<nav> <!--Contenedor 1-->
+    <div style="background: yellow;">
+<p><strong>Listas mezcladas:</strong></p>
+<ol>
+<li>Tengo que comprar yo:</li>
+<ul>
+    <li>Agua</li>
+    <li>Cocacola</li>
+    <li>Cerveza</li>
+    <li>Ron</li>
+    </ul>
+<li>Lo compra Juan:</li>
+<ul>
+    <li>Carne</li>
+    <li>Pan</li>
+    <li>Tomates</li>
+</ul>
+<li>Lo compra Pepi</li>
+<ul>
+    <li>Carbón</li>
+    <li>Pastillas para encender la barbacoa</li>
+    <li>Pinzas carne</li>
+    <li>Servilletas</li>
+    </ul>
+</ol>
+</div>
+</nav>
+
+<aside> <!-- Contenedor 2-->
+    <div style="background: red;">
+    <p><strong>Lista ordenada:</strong></p>
+    <ol>
+    <li>Uno</li>
+    <li>Dos</li>
+    <li>Tres</li>
+    <li>Cuatro</li>
+    </ol>
+    <p><strong>Lista desordenada:</strong></p>
+    <ul>
+    <li>Gaseosa</li>
+    <li>Licor 43</li>
+    <li>Bitter Kas</li>
+    
+    </ul>
+</div>
+</aside>
+
+</body>
+</html>
