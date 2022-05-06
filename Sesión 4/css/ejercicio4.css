@@ -1,0 +1,16 @@
+body {
+    font-family: 'Tapestry', cursive;
+}
+*{
+    color:rgb(8, 8, 105)
+}
+
+p{
+    padding: 20px;
+}
+
+.miparrafo{
+    
+    font-style: italic;
+    
+}
