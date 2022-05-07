@@ -1,0 +1,50 @@
+<!-- En este ejercicio deberéis crear una página con un formulario de inicio de sesión, está pagina tendrá:
+
+Una imagen de fondo.
+
+Un formulario de inicio de sesión, contendrá mail y contraseña, un recuadro seleccionable de "Acepto términos y condiciones" y un botón de enviar.
+
+Validación de campos. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBootCamp. HTML/CDSS: Ejercicio 7</title>
+    <link href="css/ejercicio7.css"rel="stylesheet" />
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="login-form">
+            <form>
+                <h1>Login form</h1>
+                <div class="login-form__field">
+                    <label for="email">Correo electronico</label>
+                    <br>
+                    <input type="email" name="email" required class="login-form__field--email" placeholder="Email">
+                </div>
+
+                <div class="login-form__field">
+                    <label for="password">Contraseña</label>
+                    <br>
+                    <input type="password" name="password" required class="login-form__field--password" placeholder="Password">
+                </div>
+                 
+                <div class="login-form__field">
+                    <input type="checkbox" name="check" id="check" class="login-form__field-checkbox">
+                    <label for="check">Acepto terminos y condiciones</label>
+                </div>
+
+                <div class="login-form__button">
+                    <button type="submit" class="login-form__button--button">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
